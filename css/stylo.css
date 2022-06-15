@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,500&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -24,12 +27,13 @@ body{
     padding: 10px 0px;
     font-size: 3.7em;
     color: rgb(255, 255, 255);
+    font-family: 'Barlow', sans-serif;
 }
 
 .nav_cabecalho{
     padding: 0px 15px;
     font-size: 1.7em;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(34, 34, 34);
 }
 .nav_cabecalho a{
     color: rgb(255, 255, 255);
@@ -38,9 +42,9 @@ body{
     text-decoration: none;
 }
 .nav_cabecalho a:hover{
-    background-color: rgba(240, 248, 255, 0.308);
+    background-color: rgba(179, 179, 179, 0.308);
     border-radius: 5px;
-    color: rgb(201, 201, 201);
+    color: rgb(190, 190, 190);
 }
 .titulo_principal{
     text-align: center;
@@ -64,6 +68,7 @@ body{
     height: 200px;
     border-radius: 50%;
     margin: 0px 30px;
+    cursor: move;
 }
 .texto{
     display: flex;
